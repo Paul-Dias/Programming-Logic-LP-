@@ -1,0 +1,178 @@
+
+
+p{
+ 	color:black;
+	text-align: center; 
+	font-family:Arial;
+	font-size:52px;
+	
+}
+p.solid {
+  margin: auto;
+  font-family:Times New Roman;
+  border-width: 5px;
+  width:50%;
+   background-color: rgba(255,255,255,0.85);
+}
+tr{
+  background-color: rgba(255,255,255,0.85);
+  border-radius: 10px 20px 30px;
+}
+tr:nth-child(even){
+  
+  border-radius: 10px 20px 30px;
+  background-color: rgba(255,255,255,0.9);
+}
+
+
+
+table {
+  border-radius: 10px 20px 30px;
+  border: 0px solid #66a3ff;
+  border-collapse: 100%;
+  border-spacing: 100% 8px;
+  margin-top: -105px;
+  width: 80%;
+  height: 80%;
+  
+}
+
+th, td {
+  border: 0px solid #4682B4;
+  text-align: left;
+  padding: 8px;
+  border-left-width: 0;
+  min-width: 80px;
+  height: 18px;
+  
+}
+.produto{
+  color:Black;
+  text-align: center;
+  font-family:Arial Black;
+  font-size:22px;
+  
+}
+
+.preco{
+	color:red;
+	text-align: left;
+	font-family:Arial Black;
+	font-size:24px;
+ 
+}
+.button {
+    background-color:#0033cc ; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.titulo{
+  color:black;
+  text-align: center;
+  font-family:Arial Black;
+  font-size:16px;
+  
+}
+ul { 
+    font-family:Arial Black, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #3399ff;
+}
+table.entrar{
+  border-radius: 10px 20px 30px;
+  border: 1px solid #66a3ff;
+  border-collapse: 100%;
+  border-spacing: 0 8px;
+  margin-top: -8px;
+  width: 50%;
+  height: 50%;
+  position: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #0033cc;
+}
+
+.active {
+    background-color: #0033cc;
+}
+.borda{
+  border:2px solid #00BFFF;
+}
+.background{
+  background-image: url("background.jpg");
+  background-repeat: repeat;
+}
+.planofundos{
+    background-image: url("logocomg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+	width: 100%;
+	height: 350px;
+}
+.texto{
+  color:black;
+  text-align:left;
+  font-family:Arial Black, sans-serif;
+  font-size:16px;
+
+}
+
+/* Icon */
+
+	.icon{
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+.sub-menu{
+  margin: 0;
+  padding: 0;
+}
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  visibility: hidden;
+  overflow: hidden;
+}
+.sub-menu{
+  list-style: none;
+  background-color: rgba(00,00,00,0.95);	
+}		
+	
