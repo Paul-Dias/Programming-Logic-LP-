@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta charset = "UTF-8"/>
+		<script type = "text/javascript">
+			var pr1,pr2,nome,media;
+			
+			
+			nome = prompt("Digite o nome do aluno");
+			pr1 = prompt("Digite a nota da primeira prova");
+			pr2 = prompt("Digite a nota da segunda prova");
+			
+			media = (+pr1 +  +pr2)/2;
+			
+			if(media >= 7)
+				{
+					document.write("Nome: "+nome+"     ");
+					document.write("Primeira nota: "+pr1+"   ");
+					document.write("Segunda nota: "+pr2+"    ");
+					document.write("Média: "+media+"	");
+					document.write("Situação: AP");
+				}
+			else
+				{
+					if(media <= 3)
+						{
+							document.write("Nome: "+nome+"     ");
+							document.write("Primeira nota: "+pr1+"   ");
+							document.write("Segunda nota: "+pr2+"    ");
+							document.write("Média: "+media+"	");
+							document.write("Situação: RP");
+						}
+					else
+						{
+							document.write("Nome: "+nome+"     ");
+							document.write("Primeira nota: "+pr1+"   ");
+							document.write("Segunda nota: "+pr2+"    ");
+							document.write("Média: "+media+"	");
+							document.write("Situação: PF");
+						}
+				}
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>	

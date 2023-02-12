@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset = "UTF-8"/>
+		<script type = "text/javascript">
+		var n;
+		var aux1= 0,aux2 = 0 ,aux3 = 0;		
+			n = prompt("Digite um numero:");
+			
+			aux1 = n % 10;
+			aux2 = n % 5;
+			aux3 = n % 2
+			
+			if(aux1 == 0 || aux2 == 0 || aux3 == 0)
+				{
+					if(aux1 == 0 && aux2 == 0 && aux3 == 0)
+						{
+							document.write("O Número é divisivel por 10,2 e 5")
+						}
+					else
+						{
+							if(aux1 == 0 && aux3 == 0)
+							  {
+									document.write("O Número é divisivel por 10 e 2")
+							  }
+							 else
+							  {
+									if(aux2 == 0)
+										{
+									document.write("O Número é divisivel por 5")
+										}
+									else
+										{
+											if(aux3 == 0)
+												{
+													document.write("O Número  é divisivel por 2")
+												}	
+											else
+												{
+													document.write("O Número não é divisivel por 10,5 e 2")
+												}
+										}
+							  }
+						}
+				}
+			else
+				{
+					document.write("O Número não é divisivel por 10,5 e 2")
+				}
+		
+		</script>
+	</head>
+	<body>
+	</body>
+</html>	

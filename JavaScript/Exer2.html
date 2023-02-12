@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset = "UTF-8"/>
+		<script type = "text/javascript">
+
+		var P;
+		var E = 0;
+		var M = 0;
+		
+		P = prompt("Insira a o peso em Quilos dos peixes pescados:");
+		
+		if(P > 50)
+			{
+				M = (P - 50)*4;
+				E = P - 50;
+				alert("Multa no valor de: "+M+" R$");
+				alert("Excedeste em: "+E+" Quilos acima do limite");
+			}
+		else
+			{
+				alert("Não há Multa, o peso dos peixes esta abaixo do limite");
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>	

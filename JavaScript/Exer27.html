@@ -1,0 +1,62 @@
+<html>
+  <head> 
+        <meta charset="utf-8"/>
+		<script type="text/javascript">
+			
+			
+
+
+		var a,b,c,maior = 0,intermediario = 0,menor = 0;
+		
+		a = prompt("Digite um numero");
+		b = prompt("Digite outro numero");
+		c = prompt("Digite mais um numero");
+		
+		if(a > b && b > c)
+		{
+			maior = a;
+			intermediario = b;
+			menor = c;
+		}
+		else if(a > c && c > b)
+		{
+			maior = a;
+			intermediario = c;
+			menor = b;	
+		}
+		else if(b > a && a > c)
+		{
+			maior = b;
+			intermediario = a;
+			menor = c;
+		}
+		else if(b > c && c > a)
+		{
+			maior = b;
+			intermediario = c;
+			menor = a;
+		}
+		else if(c > a && a > b)
+		{
+			maior = c;
+			intermediario = a;
+			menor = b;
+		}
+		else
+		{
+			maior = c;
+			intermediario = b;
+			menor = a;
+		}
+		
+		alert("Maior: "+maior);
+		alert("Intermediario: "+intermediario);
+		alert("Menor : "+menor);
+		
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta charset = "UTF-8"/>
+		<script type = "text/javascript">
+
+				var codFunc;
+				var horasTrab;
+				var salario = 0;
+				var salarioExcedente = 0;
+				var salarioTotal = 0;
+				
+				codFunc = prompt("Insira o codigo do funcionario:");
+				horasTrab = prompt("Insira as horas trabalhadas:");
+				
+				if(horasTrab > 50)
+					{
+						salario = 50*10;
+						salarioExcedente = (horasTrab - 50)*20;
+						salarioTotal = salario + salarioExcedente;
+						
+						alert("Salario padrão com 50 horas trabalhadas: "+salario+" R$");
+						alert("Salario Excedente: "+salarioExcedente+" R$");
+						alert("Salario total: "+salarioTotal+" R$");
+					}
+				else
+					{
+						salario = horasTrab * 10;
+						
+						alert("Salario: "+salario+" R$");
+					}		
+		</script>
+	</head>
+	<body>
+	</body>
+</html>	

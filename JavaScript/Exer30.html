@@ -1,0 +1,32 @@
+<html>
+  <head> 
+        <meta charset="utf-8"/>
+		<script type="text/javascript">
+			
+		var precocompra,precovenda = 0,precototal = 0;
+        
+        precocompra = prompt("Digite o preço de compra do produto: ");
+        
+        if(precocompra <= 20)
+            {
+                precovenda = precocompra * 0.45;
+                precototal = precovenda + precocompra;
+                alert("preço de compra menor ou igual a 20 R$");
+                alert("Para obter um lucro de 45%");
+                alert("Sera necessario vende-lo por: "+precototal+"R$");
+            }
+        else
+            {
+                precovenda = precocompra * 0.30;
+                precototal = precocompra + precovenda;
+                alert("preço de compra maior que 20 R$");
+                alert("Para obter um lucro de 30%");
+                alert("Sera necessario vende-lo por: "+precototal+"R$");   
+            }
+            
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>	
